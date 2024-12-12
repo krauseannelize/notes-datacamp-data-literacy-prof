@@ -15,6 +15,9 @@ Gain an introduction to data. Learn the basics of data types and structures, the
    - [Data in decision making](#data-in-decision-making)
    - [Data as a resource](#data-as-a-resource)
 3. [Data in-depth](#data-in-depth)
+   - [Data ethics and privacy](#data-ethics-and-privacy)
+   - [Data life cycle](#data-life-cycle)
+   - [Common data mistakes](#common-data-mistakes)
 
 ---
 
@@ -101,17 +104,17 @@ One such mental model is the DIKW (Data, Information, Knowledge, Wisdom) pyramid
 
 ![DIKW Pyramid](/images/dikw-pyramid.jpg 'DIKW Pyramid')
 
-- **Data**
+- ***Data***
   - A collection of raw data in the form of measurements and observations
   - It is unorganized and unprocessed
   - It does not have any meaning yet
-- **Information**
+- ***Information***
   - The raw data is placed into context
   - Context is typically given by organizing and aggregating data
-- **Knowledge**
+- ***Knowledge***
   - Combine information to make connections to learn and gain meaning
   - Typically done by detecting patterns, making generalizations or predictions
-- **Wisdom**
+- ***Wisdom***
   - Applying knowledge to act proactively and guide decisions effectively
   - Insights bridge the gap between knowledge and action, leading to better predictions and understanding
 
@@ -121,22 +124,22 @@ One such mental model is the DIKW (Data, Information, Knowledge, Wisdom) pyramid
 
 The decision making is the process of making the right choices at the right time. For many decisions, employing data can help make a tough choice clearer. Data driven decision making is a five-step process:
 
-1. **Asking the right questions**
+1. ***Asking the right questions***
    - Outline exactly what you are looking to answer
    - A well-defined question prevents scope creep
    - Ensure success throughout the rest of the process
-2. **Collecting the right data**
+2. ***Collecting the right data***
    - With a clear question, the search for the right data begins
    - Data can exist in various forms and locations
    - Being deliberate about sourcing data and considering its future analysis can save time in the data preparation phase
-3. **Preparing data**
+3. ***Preparing data***
    - Involves converting low-quality data into higher quality through manipulation
    - Arrange data into expected structure for analysis
    - Sometimes this is the most time consuming step with 80% of time spent on data cleaning
-4. **Analyzing data**
+4. ***Analyzing data***
    - Transforms data into actionable insights using tools like Python, R, Tableau, Power BI, Excel, and Google Sheets.
    - These tools help find insights necessary for decision-making
-5. **Making decisions**
+5. ***Making decisions***
    - Interpreting the analysis results to make data-driven decisions
    - Balance outcomes with personal knowledge and experiences.
    - The process is iterative, allowing for continuous improvements based on observed outcomes.
@@ -170,7 +173,104 @@ Data flow in organizations can be complex, involving multiple source systems and
 
 ## Data in-depth
 
+Data can drive impactful decisions but comes with responsibilities.
+
 ---
+
+### Data ethics and privacy
+
+Data ethics ensure ethical collection, storage, and use of data to protect customers and avoid legal issues. The five principles of data ethics:
+
+- ***Permission*** for data collection
+  - Ask before collecting
+  - Users are in control of their data
+- ***Transparency*** about the plan
+  - Be transparent of how you plant to use, store, and collect data
+  - Lack of transparency may lead to reputation and legal damage
+- ***Privacy*** of data
+  - Refers to secluding yourself
+  - Personal Identifiable Information (PII) must remain confidential
+  - Privacy protection:
+    - Strong passwords
+    - Up-to-date operating systems
+    - Cautionary internet browsing
+  - Prevent data breaches:
+    - Limit sharing sensitive data
+    - Pseudo-data anonymization
+- Good ***intensions***
+  - Data is collected for the right reasons
+  - Questions yourself about the reasons you collect data
+- Consider the ***outcome***
+  - Are there consequences of your actions?
+  - Protecting vulnerable populations
+
+---
+
+### Data life cycle
+
+The Data Life Cycle is a framework for regulating data from collection to use, analysis, and disposal. It ensures responsible data management, helps identify improvement areas, and enhances operational efficiency. Proper handling and leveraging of data are crucial for organizations and researchers.
+
+![Data Life Cycle](/images/data-life-cycle.png 'Data Life Cycle')
+
+Phases of the data life cycle:
+
+1. ***Plan and Collect***
+   - Prepare a business question that answers the need of your stakeholders
+   - Decide on the type of required data, how and who will be responsible for managing the data, and how to achieve the most effective results
+   - Do you need to collect or create data?
+2. ***Store and Manage***
+   - Data needs to be stored in databases or data warehouses
+   - Easily accessible by the right person
+   - Can be properly managed over time
+   - Removal of PII
+3. ***Clean and Process***
+   - Formatting data
+   - Dealing with missing values or errors
+   - Transforming data into a more usable form
+4. ***Analyze and Visualize***
+   - Analyzing raw data to get new meaningful insights
+   - Data is easier to interpret when visualized
+   - Various methods are used to analyze and visualize data
+5. ***Share***
+   - Successfully communicating your results
+   - Publishing dashboards, reports, or papers, presenting findings at conferences, or making datasets available
+6. ***Archive or Destroy***
+   - Decide if data should be archived or destroyed
+   - Data archiving:
+     - backing up data,
+     - maintaining proper documentation
+     - digitizing
+   - Data destruction:
+     - Rarely
+     - Protecting private information
+     - Free up resources
+
+---
+
+### Common data mistakes
+
+Common mistakes with data include:
+
+1. ***Not clearly defining the problem***
+   - Vague questions like "Did you buy anything in the last month?" don't provide actionable insights
+   - Specific questions like "Where did you make your last purchase?" yield better data
+   - Without a clear question, you risk inappropriate data collection and analysis, and incorrect conclusions
+2. ***Insufficient or wrong data***
+   - Collecting data that isn't representative of the target audience - data bias
+   - Wrong data doesn't allow you to answer the research question
+   - Proper cleaning and processing before analysis
+3. ***Lack of appropriate analysis***
+   - Jumping to conclusions without proper analysis
+   - Lack of context may lead to misinterpreting the results
+   - Incorrect aggregations or calculations
+   - Confusing correlation with causation
+4. ***Ineffective communication of results***
+   - Most valuable part of the data life cycle
+   - Could lead to misunderstandings or incorrect conclusions
+   - Ineffective communication:
+     - too technical
+     - cherry-picking data points
+     - unclear visualization
 
 ---
 
