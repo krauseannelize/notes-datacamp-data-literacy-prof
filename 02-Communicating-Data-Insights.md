@@ -9,6 +9,9 @@ Data-driven organizations consistently rely on insights to inspire action and dr
    - [Data insight](#data-insights)
    - [Getting to know your audience](#getting-to-know-your-audience)
 2. [Effective data visuals](#effective-data-visuals)
+   - [Basic visualization](#basic-visualization)
+   - [Advanced visuals](#advanced-visuals)
+   - [Guiding principles of visualization](#guiding-principles-of-visualization)
 3. [Storytelling with data](#storytelling-with-data)
 
 ---
@@ -128,6 +131,73 @@ Build a plan to communicate:
 ---
 
 ## Effective data visuals
+
+Visualizations make complex information more accessible and uncover insights. Visualization are at the forefront of communicating data insights with charts and graphs simplifying the vast amount of information generated daily. Visualizations provide an aggregated, or summarized view of the data, that makes it easier to see overall trends and patterns.
+
+Visualization can reduce the amount of complexity in a dataset. Simplifying complex datasets allows for a multitude of positive effects:
+
+- faster decision making
+- better decision making
+- wider appeal to decision makers
+- shows a more complete picture than simple aggregations
+
+### Basic visualization
+
+#### :red_circle: Bar chart
+
+The graphical representation of *categorical data* using rectangular bars where the length of each bar is proportional to the value they represent.
+
+#### :red_circle: Histogram
+
+The graphical representation of data where data is grouped into continuous *number ranges* and each range corresponds to a vertical bar. This images indicates the difference between a bar chart and a histogram:
+
+![Bar charts vs Histogram](/images/bar-chart-vs-histogram.png 'Bar charts vs Histogram')
+
+#### :red_circle: Scatter plot
+
+The graphical representation of data where points are plotted based on their values along vertical and horizontal axes, making it easier to detect relationships between variables. Below you will see how you can detect relationships between variables using a scatter plot:
+
+![Scatter plot](/images/scatterplot.png 'Scatter plot')
+
+---
+
+### Advanced visuals
+
+Basic bar charts limit the display to one category at a time.
+
+#### :red_circle: Stacked bar chart
+
+Allows a more detailed comparisons by adding a second categorical variable. This combined graph shows different income source breakdowns for each museum, providing insights such as the contemporary art museum's higher gift shop revenue compared to ticket sales:
+
+![Standard stacked bar chart](/images/bar-chart-stacked-standard.png 'Standard stacked bar chart')
+
+#### :red_circle: Percentage stacked bar chart
+
+Provides different insights than a standard stacked bar chart. Here a stacked bar chart compares the percentage of total income each sales source represents for each museum, offering a clearer perspective on under or over-performing areas:
+
+![Percentage stacked bar chart](/images/bar-chart-stacked-percentage.png 'Percentage stacked bar chart')
+
+Flexibility in data visualization is crucial. Stacked bar charts provide comparative insights, while other visualizations can highlight different aspects. Exploring various methods can reveal new and interesting data insights.
+
+---
+
+### Guiding principles of visualization
+
+Visualizations aid in data flow and insights in many different ways. Visualizations aim to share general information that can be quickly understood and action taken. Overall trend information is more important than knowing the exact details when constructing a Visual.
+
+Trying to be too specific is a common issue with visualizations. Visualizations are meant to show some information, but not all information about a dataset. Keep it simple and:
+
+- don't try to do too much in a visualization,
+- aim for simplicity over complexity, abd
+- use complex formats sparingly.
+
+Create better visuals with minimal effort by removing unnecessary elements like:
+
+- grid-lines,
+- busy color schemes, and
+- 3D effects.
+
+Simplifying visual elements can improve interaction and understanding of data. Visualizations should align with audience expectations and organizational communication standards for better reception and effectiveness.
 
 ---
 
