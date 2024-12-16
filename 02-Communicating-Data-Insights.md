@@ -207,6 +207,24 @@ Simplifying visual elements can improve interaction and understanding of data. V
 
 ## Storytelling with data
 
+Data storytelling is a powerful tool for communicating data insights. In the image below, the same data is visualized with storytelling on the left and without storytelling on the right to indicate the difference:
+
+![Pie Chart vs Bar Chart](/images/storytelling-pie-vs-bar.png 'Pie Chart vs Bar Chart')
+
+**Right - without storytelling:** Very hard to parse and gain any helpful information, the overall impact is hard to understand.
+
+**Left - with storytelling:** Combining robust visualizations with narrative context creates a more potent and understandable message than standalone visuals.
+
+### Why Tell Data Stories?
+
+Data stories are:
+
+- easier to understand,
+- inspire action better, and
+- your audience retains the information much longer.
+
+They pair visualizations with narrative and context, making them accessible to a wider audience. This drives engagement and persuade better than raw data. As they are more memorable than standalone data, another benefit is being more sticky than other forms of communication.
+
 ---
 
 [back to top](#communicating-data-insights) or continue to next course: [Introduction to Data Literacy](/03-Introduction-to-Data-Literacy.md)
