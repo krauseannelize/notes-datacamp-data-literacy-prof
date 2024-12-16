@@ -13,12 +13,18 @@ Data-driven organizations consistently rely on insights to inspire action and dr
    - [Advanced visuals](#advanced-visuals)
    - [Guiding principles of visualization](#guiding-principles-of-visualization)
 3. [Storytelling with data](#storytelling-with-data)
+   - [Why tell data stories?](#why-tell-data-stories)
+   - [Keys to a good story](#keys-to-a-good-story)
+   - [Storytelling in action](#storytelling-in-action)
+   - [Group framework](#group-framework)
 
 ---
 
 ## Communicating information
 
 It is important to understand how we share knowledge and insights, by first understanding how we communicate with each other.
+
+---
 
 ### How we communicate
 
@@ -141,6 +147,8 @@ Visualization can reduce the amount of complexity in a dataset. Simplifying comp
 - wider appeal to decision makers
 - shows a more complete picture than simple aggregations
 
+---
+
 ### Basic visualization
 
 #### :red_circle: Bar chart
@@ -207,15 +215,18 @@ Simplifying visual elements can improve interaction and understanding of data. V
 
 ## Storytelling with data
 
-Data storytelling is a powerful tool for communicating data insights. In the image below, the same data is visualized with storytelling on the left and without storytelling on the right to indicate the difference:
+***Data storytelling*** is a method of communicating data insights tailored to a specific audience with an overarching narrative. It is a powerful tool for communicating data insights. In the image below, the same data is visualized with storytelling on the left and without storytelling on the right to indicate the difference:
 
 ![Pie Chart vs Bar Chart](/images/storytelling-pie-vs-bar.png 'Pie Chart vs Bar Chart')
 
-**Right - without storytelling:** Very hard to parse and gain any helpful information, the overall impact is hard to understand.
+| Left - Bar Chart | Right - Pie Chart |
+| --- | --- |
+| ***WITH storytelling*** | ***WITHOUT storytelling*** |
+| Combining robust visualizations with narrative context creates a more potent and understandable message than standalone visuals | Very hard to parse and gain any helpful information, the overall impact is hard to understand |
 
-**Left - with storytelling:** Combining robust visualizations with narrative context creates a more potent and understandable message than standalone visuals.
+---
 
-### Why Tell Data Stories?
+### Why tell data stories?
 
 Data stories are:
 
@@ -224,6 +235,48 @@ Data stories are:
 - your audience retains the information much longer.
 
 They pair visualizations with narrative and context, making them accessible to a wider audience. This drives engagement and persuade better than raw data. As they are more memorable than standalone data, another benefit is being more sticky than other forms of communication.
+
+### Keys to a good story
+
+| Element | Meaning |
+| --- | --- |
+| ***Visualization*** | Sharing data insights in an easily understood format |
+| ***Context*** | Providing the broader picture and grounding the audience's understanding |
+| ***Narrative*** | Giving a voice to the data, explaining its significance, and inspiring action |
+
+Reflecting on the bar chart visualization above with storytelling, it is clear that the small paragraph contains both our narrative and context for the insights. Combining visualization, context, and narrative makes data stories more understandable and impactful, moving from confusing visuals to clear insights.
+
+---
+
+### Storytelling in action
+
+We can use a two-step process to develop stories:
+
+1. What are we trying to say?
+2. What visualization is best to share our message?
+
+For example, if our focus is the difference between us and our competitors, a diverging bar chart would be a great choice for a visualization such as this one:
+
+![Basic Diverging Bar Chart](/images/bar-chart-diverging-basic.png 'Basic Diverging Bar Chart')
+
+We can take it to the next level by adding context, using colors intentionally, and simplifying visual elements to enhance the data story. These principles make the story more engaging and versatile for different presentations as illustrated below:
+
+![Level Up Diverging Bar Chart](/images/bar-chart-diverging-level-up.png 'Level Up Diverging Bar Chart')
+
+---
+
+### Group framework
+
+Developing data storytelling skills is best done as part of a team, leveraging individual strengths and the organization's data culture. Data storytelling involves three key components within four typical roles:
+
+| Role | Responsibility | Objective |
+| --- | --- | --- |
+| ***Subject matter expert (SME)*** | Knowing the business problem completely | Develop narrative, build context and relate data story to organizational efforts |
+| ***Visualizer*** | Blends art and science to create compelling visuals | Craft visuals that ensures insights are properly showcased |
+| ***Analyst*** | Technical expert in charge of uncovering and supporting insights | Support the other roles by answering analytical questions and do not require business expertise |
+| ***Reviewer*** | Evaluates the overall data story | Verifies assumptions, acts as a sample audience to give overall impression of data story |
+
+People can serve multiple roles, and flexibility is key. A comfortable team dynamic and role rotation are more valuable than rigidly following a checklist.
 
 ---
 
