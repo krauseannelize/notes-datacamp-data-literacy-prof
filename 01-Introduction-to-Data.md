@@ -2,7 +2,7 @@
 
 Gain an introduction to data. Learn the basics of data types and structures, the DIKW framework, data ethics and more.
 
-## Table of Contents
+## Table of contents
 
 1. [Data basics](#data-basics)
    - [Structured vs unstructured](#structured-vs-unstructured)
